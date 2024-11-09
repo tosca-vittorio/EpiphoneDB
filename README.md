@@ -1,7 +1,6 @@
 # EpiphoneDB 🎸
 
 **EpiphoneDB** è un progetto web sviluppato durante il corso di Web Programming presso la Facoltà di Ingegneria Informatica dell'Università di Catania. Questo sito si propone come un'applicazione informativa e dinamica dedicata alla gestione di contenuti multimediali legati a album musicali, artisti e informazioni correlate.
-https://tosca-vittorio.github.io/EpiphoneDB/
 
 ## 🛠 Tecnologie Utilizzate
 - **Frontend**: HTML5, CSS3, Flexbox per il layout, librerie come ScrollReveal per le animazioni.
