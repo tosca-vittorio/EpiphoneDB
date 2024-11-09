@@ -50,39 +50,37 @@ Accesso ai dati dell'utente e contenuti aggiuntivi tramite query al database:
 Di seguito alcuni screenshot dimostrativi delle pagine e delle funzionalità principali del sito:
 
 ### HOMEPAGE
+> La pagina principale, con un video di background e animazioni dinamiche.
 ![Hero](screenshots/hero.png)
 ![Homepage](screenshots/homepage.png)
-> La pagina principale, con un video di background e animazioni dinamiche.
 
 
 ### ALBUM
-![Album Page](screenshots/album_page1.png)
 > Visualizzazione degli album, con dettagli espandibili e opzioni di selezione.
+![Album Page](screenshots/album_page1.png)
 
-
+> Accesso ai contenuti protetti per utenti registrati, inclusi album preferiti e informazioni su artisti e partnership.
 ![User Overview](screenshots/user_overview1.png)
 ![User Overview](screenshots/user_overview2.png)
-> Accesso ai contenuti protetti per utenti registrati, inclusi album preferiti e informazioni su artisti e partnership.
 
 ### API
+> Dati meteo forniti tramite API di OpenWeatherMap.
 ![Weather API](screenshots/api.png)
 ![Weather API](screenshots/weather_api.png)
-> Dati meteo forniti tramite API di OpenWeatherMap.
 
-
+> Informazioni sugli album e anteprime tramite Spotify API.
 ![Spotify Album Details](screenshots/spotify_api.png)
 ![Spotify Album Details](screenshots/spotify_api2.png)
 ![Spotify Album Details](screenshots/spotify_api3.png)
-> Informazioni sugli album e anteprime tramite Spotify API.
 
-### PANORAMICA
-![Pano](screenshots/pano.png)
+### PANORAMICA7
 > Registrazione, connessione al Database, SQL injection, query al Database, Log-In e Log-Out
+![Pano](screenshots/pano.png)
 
 ### OPERAZIONI
+> Utenti registrati, Partnership, Informazioni sugli Store affiliati, Clienti, Tecnici e Album disponibili
 ![Opera](screenshots/operazioni1.png)
 ![Opera](screenshots/operazioni2.png)
-> Utenti registrati, Partnership, Informazioni sugli Store affiliati, Clienti, Tecnici e Album disponibili
 ---
 
 > **Nota**: Gli screenshot forniscono una panoramica visiva per chi non desidera configurare il database locale. Le immagini sono visualizzabili alla sezione `screenshots` della repository.
