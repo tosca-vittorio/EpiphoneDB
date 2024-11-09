@@ -1,0 +1,93 @@
+#albumView img
+{
+  border: 1px solid slategrey;
+  margin: 5px;
+  padding: 5px;
+  height: 150px;
+}
+
+#modalView
+{
+  position: absolute;
+  top:0; left:0;
+
+  height: 100%;
+  width: 100%;
+
+  background-color: rgba(0,0,0,0.7);
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modalView img
+{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#modalView.hidden
+{
+  display: none;
+}
+
+.no_scroll
+{
+  overflow: hidden;
+}
+
+.modalView_info
+{
+  display: flex;
+  flex-direction: row;
+  border: 3px solid gold;
+  width: 50%;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 100%;
+  background-color: antiquewhite;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+.modalView_info p{color: black;}
+
+
+.modalView_title{width: 100%; margin-bottom: 5px;}
+.modalView_title h4{padding: 20px; font-size: 200%;}
+span.med-text{font-size: 150%;}
+
+.modalView_detail span
+{
+  display: block;
+  margin: 10px;
+}
+
+.modalView_copy{width: 50%; display: flex; align-items: center; flex-direction: column; flex-wrap: wrap; justify-content: center;}
+
+div.box_tracks{width: 50%; height: 500px; padding: 0; overflow-y: auto;}
+ul.tracks{display: flex; flex-direction: column; justify-content: center; align-items: center; width: 100%; padding: 0; }
+
+.box_brano{object-fit: cover; display: flex; flex-direction: row; flex-wrap: nowrap; justify-content: space-around; margin: 2.5px 0; width: 100%; background-color: white; border-radius: 50px; align-items: center;}
+.audio{width: 800px; }
+.track
+{
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*BORDER BOX*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}

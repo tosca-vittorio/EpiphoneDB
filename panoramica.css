@@ -1,0 +1,313 @@
+/* GENERALI */
+div#blue.contenuto{border: 15px solid Blue;}
+div#mblue.contenuto{border: 15px solid MediumBlue;}
+div#midblue.contenuto{border: 15px solid MidnightBlue;}
+
+#button{cursor: pointer;}
+/*--------------------------------------
+COVER
+--------------------------------------*/
+.cover /* il grande contenitore della nostra immagine di sfondo*/
+{
+  top: -50px;
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://source.unsplash.com/category/buildings);
+  background-size: cover;
+  position: relative;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-position: center center;
+  z-index: 0;
+}
+
+#overlay /*effetto contrasto*/
+{
+  background-color: rgba(0,0,0,0.2);
+  position: absolute;
+  top:0;
+  bottom:0;
+  height:100%;
+  width:100%;
+}
+
+.cover_caption /*contenitore delle scritte centrali*/
+{
+  display: table;
+  height:100%;
+  width:100%;
+  position: relative;
+  z-index: 1;
+}
+
+.cover_copy
+{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-family: Roboto, Montserrat;
+  font-size: 150%;
+}
+
+.cover_copy a /*In questo blocco modifico lo stile e le caratteristiche
+del LINK del tag <a> contenuto in .cover_copy grazie al SELETTORE DISCENDENTE
+Questo blocco fa riferimento al bottone al centro della pagina.*/
+{
+  border-radius: 15px;
+  padding: 10px;
+  display:inline-block;
+  background: SandyBrown;
+  color: rgb(161,24,38);
+  text-decoration: none; /* sto eliminando la sottolineatura del link */
+  font-family: Raleway, Josefin Sans;
+  font-size: 200%
+}
+
+.cover_button a:hover
+{
+  background: Wheat;
+}
+
+/*scritta centrale sullo sfondo*/
+.cover_copy h2
+{
+  margin-top: 50px;
+  display: inline-block;
+  padding: 10px;
+  color: AntiqueWhite;
+  border-radius: 35px;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.contenuto
+{
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  border-radius: 50px;
+  padding: 50px;
+}
+
+.contenuto p {line-height: 25px; color: #666; margin: 10px;}
+
+
+::-webkit-scrollbar{width: 0;}
+#scrollPath
+{
+  position: fixed;
+  top: 0; right: 0;
+  width: 10px; height: 100%;
+  background: rgba(255,255,255,0.05);
+}
+
+#progbar
+{
+  position: fixed;
+  top: 0; right: 0;
+  width: 10px;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+  0%,100%
+  {
+    filter: hue-rotate(0deg);
+  }
+
+  50%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+
+#progbar:before
+{
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(10px);
+}
+
+#progbar:after
+{
+  content: '';
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(to top, #008aff, #00ffe7);
+  filter: blur(10px);
+}
+
+
+@media (max-width: 767px)
+{
+
+  .contenuto
+  {
+    border: none;
+    padding: 25px;
+  }
+
+  .contenuto p
+  {
+    margin-bottom: 100px;
+  }
+
+  .artista
+  {
+    display: none;
+  }
+
+  .master
+  {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin: 0;
+  }
+
+
+  .contenitore
+  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .item
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+  }
+
+  .item__image
+  {
+    /*border: 1px solid red;*/
+    background-size: cover;
+    width: 100%; height: 50%;
+    padding: 5px 5px;
+  }
+
+  .item__copy
+  {
+    width: 100%;
+    display: inline-block;
+    /*border: 1px solid orange;*/
+  }
+
+  .mostra_dettagli
+  {
+    text-align: center;
+    width:40%;
+    border: 1px solid blue;
+    margin-left: 85px;
+  }
+
+  .item__copy h1
+  {
+      text-align: center;
+      padding: 10px 0;
+      margin:0;
+  }
+
+  .item__list
+  {
+    /*border: 1px solid purple;*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .item__list li
+  {
+    text-align: center;
+    list-style-type: decimal;
+  }
+
+  .item__checkbox
+  {
+    margin: 5px 20px 5px 20px;
+  }
+
+  /* per avere il menù fisso mentre scrolliamo la pagina da mobile */
+  .header
+  {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    transform: translateY(-50px);
+  }
+
+  /*BUTTON*/
+  #header_icon-menu
+  {
+    display: block;
+  }
+
+  #header_menu-flex_container /* Contenitore Flex = header_menu*/
+  {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow:hidden;
+  }
+
+  #icona_menu {top: 60px;}
+
+  .is-open{right:0;}
+  .nasconditi{z-index: 0;}
+
+  .header_menu_item a
+  {
+    position: relative;
+    top: 100px;
+  }
+
+  .item.selected.clone{ width: 100%; height: 50%;}
+
+  #copy{margin-bottom: 10px;}
+  #preferiti{display: flex; flex-direction: column; align-items: center; justify-content: center; }
+  .preferiti__copy
+  {
+    background: Gold;
+    display: flex;
+    width: 95%;
+    border-radius: 20px;
+  }
+
+  .footer
+  {
+    display: block;
+  }
+
+}
+
+
+
+
+/*HELPERS*/
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.mb50{margin-bottom: 50px;}
+.m5{margin: 5px;}
+.mt50{margin-top: 50px;}
+.mt75{margin-top: 75px;}
+
+
+/*BORDER BOX*/
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
