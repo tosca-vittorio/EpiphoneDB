@@ -49,25 +49,26 @@ Accesso ai dati dell'utente e contenuti aggiuntivi tramite query al database:
 
 Di seguito alcuni screenshot dimostrativi delle pagine e delle funzionalità principali del sito:
 
-### Homepage
+### HOMEPAGE
 ![Hero](screenshots/hero.png)
 ![Homepage](screenshots/homepage.png)
-
 > La pagina principale, con un video di background e animazioni dinamiche.
 
-### Pagina Album
+
+### ALBUM
 ![Album Page](screenshots/album_page1.png)
 > Visualizzazione degli album, con dettagli espandibili e opzioni di selezione.
+
 
 ![User Overview](screenshots/user_overview1.png)
 ![User Overview](screenshots/user_overview2.png)
 > Accesso ai contenuti protetti per utenti registrati, inclusi album preferiti e informazioni su artisti e partnership.
 
 ### API
-(screenshots/api.png)
-
+![Weather API](screenshots/api.png)
 ![Weather API](screenshots/weather_api.png)
 > Dati meteo forniti tramite API di OpenWeatherMap.
+
 
 ![Spotify Album Details](screenshots/spotify_api.png)
 ![Spotify Album Details](screenshots/spotify_api2.png)
