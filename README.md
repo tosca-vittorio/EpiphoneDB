@@ -56,19 +56,22 @@ Di seguito alcuni screenshot dimostrativi delle pagine e delle funzionalità pri
 > La pagina principale, con un video di background e animazioni dinamiche.
 
 ### Pagina Album
-![Album Page](screenshots/album_page.png)
+![Album Page](screenshots/album_page1.png)
 > Visualizzazione degli album, con dettagli espandibili e opzioni di selezione.
 
-### Panoramica Utente
-![User Overview](screenshots/user_overview.png)
+![User Overview](screenshots/user_overview1.png)
+![User Overview](screenshots/user_overview2.png)
 > Accesso ai contenuti protetti per utenti registrati, inclusi album preferiti e informazioni su artisti e partnership.
 
-### API Meteo
+### API
+(screenshots/api.png)
+
 ![Weather API](screenshots/weather_api.png)
 > Dati meteo forniti tramite API di OpenWeatherMap.
 
-### Dettagli Album Spotify
-![Spotify Album Details](screenshots/spotify_album_details.png)
+![Spotify Album Details](screenshots/spotify_api.png)
+![Spotify Album Details](screenshots/spotify_api2.png)
+![Spotify Album Details](screenshots/spotify_api3.png)
 > Informazioni sugli album e anteprime tramite Spotify API.
 
 ---
