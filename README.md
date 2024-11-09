@@ -75,6 +75,9 @@ Di seguito alcuni screenshot dimostrativi delle pagine e delle funzionalità pri
 ![Spotify Album Details](screenshots/spotify_api3.png)
 > Informazioni sugli album e anteprime tramite Spotify API.
 
+### PANORAMICA
+![Pano](screenshots/pano.png)
+> Registrazione, connessione al Database, SQL injection, query al Database, Log-In e Log-Out
 ---
 
 > **Nota**: Gli screenshot forniscono una panoramica visiva per chi non desidera configurare il database locale. Le immagini sono visualizzabili alla sezione `screenshots` della repository.
