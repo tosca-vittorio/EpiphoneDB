@@ -1,0 +1,24 @@
+CREATE TABLE album
+(
+  id int(11) NOT NULL AUTO_INCREMENT,
+  nome varchar(40) DEFAULT NULL,
+  genere varchar(30) DEFAULT NULL,
+  numero_brani int(11) DEFAULT NULL,
+  data_uscita int(11) DEFAULT NULL,
+  formato_disponibile varchar(10) DEFAULT NULL,
+  prezzo double DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+
+INSERT INTO album VALUES ('1', 'DARK SIDE OF THE MOON','PROGRESSIVE ROCK', '10', '1973', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('2', 'ALBUM','POP RAP', '12', '2017', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('3', 'FACCIO UN CASINO','POP RAP', '12', '2017', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('4', 'NOTTI BRAVE','INDIE', '15', '2018', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('5', 'FAMOSO','TRAP', '13', '2020', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('6', 'ROCKSTAR','TRAP', '11', '2018', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('7', 'DIVIDE','POP', '10', '2017', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('8', 'GHOST STORIES','POP', '9', '2014', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('9', 'LA RIVOLUZIONE STA ARRIVANDO','ROCK', '12', '2015', 'CD/VINILE', '50');
+INSERT INTO album VALUES ('10', 'AMORE CHE TORNI','ROCK', '12', '2017', 'CD/VINILE', '50');
+
+1°

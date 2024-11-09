@@ -1,0 +1,16 @@
+CREATE TABLE artista
+(
+  nome_arte varchar(20) NOT NULL,
+  PRIMARY KEY (nome_arte)
+);
+
+INSERT INTO artista VALUES ('CARL BRAVE');
+INSERT INTO artista VALUES ('COEZ');
+INSERT INTO artista VALUES ('COLDPLAY');
+INSERT INTO artista VALUES ('ED SHEERAN');
+INSERT INTO artista VALUES ('GHALI');
+INSERT INTO artista VALUES ('NEGRAMARO');
+INSERT INTO artista VALUES ('PINK FLOYD');
+INSERT INTO artista VALUES ('SFERA EBBASTA');
+
+2°
