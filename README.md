@@ -50,8 +50,9 @@ Accesso ai dati dell'utente e contenuti aggiuntivi tramite query al database:
 Di seguito alcuni screenshot dimostrativi delle pagine e delle funzionalità principali del sito:
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
 ![Hero](screenshots/hero.png)
+![Homepage](screenshots/homepage.png)
+
 > La pagina principale, con un video di background e animazioni dinamiche.
 
 ### Pagina Album
