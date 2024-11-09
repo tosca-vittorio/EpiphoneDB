@@ -45,6 +45,37 @@ Accesso ai dati dell'utente e contenuti aggiuntivi tramite query al database:
 1. **Creazione del Database**: Carica i file SQL forniti nella repository per configurare il database locale.
 2. **Schermate Dimostrative**: Se non desideri configurare il database, sono disponibili schermate del sito per dare un'anteprima delle funzionalità.
 
+## 🖼️ Screenshot
+
+Di seguito alcuni screenshot dimostrativi delle pagine e delle funzionalità principali del sito:
+
+### Homepage
+![Homepage](screenshots/homepage.png)
+![Hero](screenshots/hero.png)
+> La pagina principale, con un video di background e animazioni dinamiche.
+
+### Pagina Album
+![Album Page](screenshots/album_page.png)
+> Visualizzazione degli album, con dettagli espandibili e opzioni di selezione.
+
+### Panoramica Utente
+![User Overview](screenshots/user_overview.png)
+> Accesso ai contenuti protetti per utenti registrati, inclusi album preferiti e informazioni su artisti e partnership.
+
+### API Meteo
+![Weather API](screenshots/weather_api.png)
+> Dati meteo forniti tramite API di OpenWeatherMap.
+
+### Dettagli Album Spotify
+![Spotify Album Details](screenshots/spotify_album_details.png)
+> Informazioni sugli album e anteprime tramite Spotify API.
+
+---
+
+> **Nota**: Gli screenshot forniscono una panoramica visiva per chi non desidera configurare il database locale. Le immagini sono visualizzabili alla sezione `screenshots` della repository.
+
+
+
 ## 💡 Note Finali
 EpiphoneDB è un progetto didattico mirato a esplorare tecniche avanzate di sviluppo web, interazioni dinamiche e gestione sicura dei dati utente.
 
