@@ -78,6 +78,11 @@ Di seguito alcuni screenshot dimostrativi delle pagine e delle funzionalità pri
 ### PANORAMICA
 ![Pano](screenshots/pano.png)
 > Registrazione, connessione al Database, SQL injection, query al Database, Log-In e Log-Out
+
+### OPERAZIONI
+![Opera](screenshots/operazioni1.png)
+![Opera](screenshots/operazioni2.png)
+> Utenti registrati, Partnership, Informazioni sugli Store affiliati, Clienti, Tecnici e Album disponibili
 ---
 
 > **Nota**: Gli screenshot forniscono una panoramica visiva per chi non desidera configurare il database locale. Le immagini sono visualizzabili alla sezione `screenshots` della repository.
